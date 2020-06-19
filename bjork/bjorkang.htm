@@ -1,0 +1,207 @@
+<script language="JavaScript">
+
+
+
+<!-- Beginning of JavaScript Applet -------------------
+
+
+
+/*
+
+*/
+
+
+
+function scrollit_r2l(seed)
+
+{
+
+        var m1  = "Warning: This web site looks better if viewed with Netscape 3.0+ or Explorer v4, in a 16.7 millions colors mode and a 800x600 resolution..!!!       Welcome to my Björk Page!!! :)  ";
+
+        var m2  = "Check out the Multimedia section for lots of cool videos and sounds to download!   ";
+
+        var m3  = "There is also lyrics, pictures, cool links and much more!! You can give me some feedback and tell me what you think of it!! Enjoy your stay here, and remember, it change often, so come back often!!  :)   ";
+
+                
+
+
+
+        var msg=m1+m2+m3;
+
+        var out = " ";
+
+        var c   = 1;
+
+
+
+        if (seed > 100) {
+
+                seed--;
+
+                var cmd="scrollit_r2l(" + seed + ")";
+
+                timerTwo=window.setTimeout(cmd,80);
+
+        }
+
+        else if (seed <= 100 && seed > 0) {
+
+                for (c=0 ; c < seed ; c++) {
+
+                        out+=" ";
+
+                }
+
+                out+=msg;
+
+                seed--;
+
+                var cmd="scrollit_r2l(" + seed + ")";
+
+                    window.status=out;
+
+                timerTwo=window.setTimeout(cmd,80);
+
+        }
+
+        else if (seed <= 0) {
+
+                if (-seed < msg.length) {
+
+                        out+=msg.substring(-seed,msg.length);
+
+                        seed--;
+
+                        var cmd="scrollit_r2l(" + seed + ")";
+
+                        window.status=out;
+
+                        timerTwo=window.setTimeout(cmd,80);
+
+                }
+
+                else {
+
+                        window.status=" ";
+
+                        timerTwo=window.setTimeout("scrollit_r2l(80)",75);
+
+                }
+
+        }
+
+}
+
+// -- End of JavaScript code -------------- -->
+
+
+
+</script>
+
+
+<head>
+
+
+
+<body onload="timerONE=window.setTimeout('scrollit_r2l(20)',100);">
+
+
+
+<body background="or.gif" !bgcolor="fgblue">
+<title>Green's Björk Page</title>
+<center>
+<IMG SRC="newtitle.jpg" BORDER=0 WIDTH=600 HEIGHT=361><br>
+</center>
+<BR><BR>
+<center>
+<table border="0" !bgcolor="green" !align="left"><tr><td>
+<center><font size="2">This site looks better with:</font></center>
+<table border="0" bgcolor="green"><tr><td>
+<a href="http://home.netscape.com/comprod/mirror/client_download.html"><img src="netnow3.gif" border="0" align="left" width="88" height="31"></a>
+<center><font !face="arial" color="yellow" size="2">16 millions colors<br>800x600 resolution</font></center>
+</td></tr></table>
+<td><td><td><td><td><td><td><td>
+
+<center>You are visitor number:<br> <!img src="http://www.chez.com/cgi-bin/Counter.cgi?dd=A|tr=T|chcolor=T|trgb=0;0;0|ft=2&amp;df=toogreen.dat">
+<!img src=/cgi-bin/count?dd=mgreen|ft=3|frgb=69;139;116&df=david2 align=top><center>
+</td></tr></table>
+<BR><BR><BR>
+<MAP NAME="menucentral">
+  <AREA SHAPE="RECT" COORDS="1,13,154,67" HREF="bjork.htm">
+  <AREA SHAPE="RECT" COORDS="326,11,479,67" HREF="bjorkang.htm">
+  <AREA SHAPE="RECT" COORDS="0,69,155,102" HREF="story.htm">
+  <AREA SHAPE="RECT" COORDS="324,67,479,102" HREF="story2.htm">
+  <AREA SHAPE="RECT" COORDS="323,102,479,134" HREF="news2.htm">
+  <AREA SHAPE="RECT" COORDS="1,102,156,133" HREF="news.htm">
+  <AREA SHAPE="RECT" COORDS="1,133,161,166" HREF="collect.htm">
+  <AREA SHAPE="RECT" COORDS="322,134,479,167" HREF="collect2.htm">
+  <AREA SHAPE="RECT" COORDS="2,167,162,197" HREF="multi.htm">
+  <AREA SHAPE="RECT" COORDS="322,167,447,197" HREF="multi2.htm">
+  <AREA SHAPE="RECT" COORDS="1,199,113,229" HREF="paroles.htm">
+  <AREA SHAPE="RECT" COORDS="322,199,413,230" HREF="lyrics.htm">
+  <AREA SHAPE="RECT" COORDS="0,230,127,264" HREF="gestbook.htm">
+  <AREA SHAPE="RECT" COORDS="321,232,448,268" HREF="gestbook.htm">
+</MAP>
+<!IMG SRC="menucentral.JPG" border=0 WIDTH="479" HEIGHT="281" USEMAP="#menucentral">
+</center>
+
+<BR><BR>
+<table width="90%"><tr><td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>A few links to other Björk pages:</b></h4>
+<a href="http://bjork.mmedia.is/" target="_parent">The Ultimate Intimate (By far THE BEST Bjork web site you can find!!)<br>
+<a href="http://www.bjork.co.uk/bjork/" target="_parent">WebSense (The Official Björk site)</a><br>
+<a href="http://www.xnet.com/~wtchoi/bjork/bjork.html" target="_parent">Won Choi's Bjork page</a><br>
+<a href="http://www.etoile-polaire.4in.com/" target="_parent">Bjork Fan-Club France, by Astro-Olivier (French &amp; English)</a>
+
+
+<hr size="4" width="90%">
+<h5>Interesting FTP sites:</h5>
+<a href="ftp://bjork.dwave.net/">Gideon's FTP site (very busy)</a><br>
+</td></tr></table>
+<br>
+
+
+</center>
+<hr size="4" width="90%">
+
+<img src="lego.gif" align="left" !width="142" !height="209">
+<h3 align=center><font face=arial>Thanks to:</font></h3>
+<ul><font face=arial size=1>
+<li>Annie Arel, for having asked Björk to sign an 
+<a href="../photos/autograf.jpg">autograph</a> for me
+<li><a href="http://www.abc.se/~m8996/bjork/bjork.html"> Matts Henning</a>, who had scanned 
+some pictures for me
+<li><a href="ftp://bjork.dwave.net">Gideon</a>, to keep all those big files on his ftp site!
+<li><a href="http://www.musiqueplus.com/">MusiquePlus</a>, for broadcasting Björk videos</a>
+<li>Björk Guðmundsdöttír, of course!
+<li>Everybody who sent their comments about this web site, because it 
+helps me to make it better</font>
+</ul>
+
+<br>
+<hr size="6" bgcolor="bgblue">
+<br><br>
+<center><h3>Use the Bjork ring to visit other Bjork's web sites...</h3></center>
+
+<!-=---- webring code start>
+<center>
+<!--webbot
+            bot="ImageMap" startspan
+            rectangle="(239,0) (285, 41)  http://www.webring.org/cgi-bin/webring?ring=bjork&amp;random##_blank"
+            rectangle="(105,3) (236, 41)  http://www.webring.org/cgi-bin/webring?home&amp;ring=bjork##_blank"
+            rectangle="(60,2) (103, 40)  http://www.webring.org/cgi-bin/webring?ring=bjork&amp;list##_blank"
+            rectangle="(11,1) (57, 39)  http://www.webring.org/cgi-bin/webring?ring=bjork&amp;id=1&amp;prev##_blank"
+            rectangle="(286,0) (329, 42)  http://www.webring.org/cgi-bin/webring?ring=bjork&amp;id=1&amp;next##_blank"
+            rectangle="(0,9540768) (9523468, 9542300)  " src="webring2.GIF" alt="BJÖRK WEBRING"
+            border="0" vspace="2" align="absmiddle" width="341" height="42" --><MAP NAME="FrontPageMap0"><AREA SHAPE="RECT" COORDS="239, 0, 285, 41" HREF="http://www.webring.org/cgi-bin/webring?ring=bjork&amp;random" TARGET="_blank"><AREA SHAPE="RECT" COORDS="105, 3, 236, 41" HREF="http://www.webring.org/cgi-bin/webring?home&amp;ring=bjork" TARGET="_blank"><AREA SHAPE="RECT" COORDS="60, 2, 103, 40" HREF="http://www.webring.org/cgi-bin/webring?ring=bjork&amp;list" TARGET="_blank"><AREA SHAPE="RECT" COORDS="11, 1, 57, 39" HREF="http://www.webring.org/cgi-bin/webring?ring=bjork&amp;id=1&amp;prev" TARGET="_blank"><AREA SHAPE="RECT" COORDS="286, 0, 329, 42" HREF="http://www.webring.org/cgi-bin/webring?ring=bjork&amp;id=1&amp;next" TARGET="_blank"><AREA SHAPE="RECT" COORDS="0, 9540768, 9523468, 9542300" NOHREF></MAP><img src="images/webring2.GIF" alt="BJÖRK WEBRING" border="0" vspace="2" align="absmiddle" width="341" height="42" usemap="#FrontPageMap0"><!--webbot
+            bot="ImageMap" i-checksum="61405" endspan -->
+</center>
+<!==----- web ring code end
+
+
+<br>
+<hr size="6" width="85%">
+<center>
+<i>©1995-99<a href="../" target="_parent"><img src="email2.gif" align="middle" !height="60" border="0"></a>
+<a href="mailto:toogreen@usa.net">toogreen@usa.net</a></i>
+</center>
